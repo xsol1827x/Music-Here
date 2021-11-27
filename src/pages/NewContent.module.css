@@ -1,0 +1,42 @@
+.container{
+    height: 100%;
+}
+
+.content{
+    list-style: none;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+    justify-content: center;
+}
+
+.content li{
+    padding-bottom: 50px;
+}
+
+.content img{
+    height: 300px;
+    width: 300px;
+}
+
+.content img:hover{
+    opacity: 0.8;
+}
+
+.content h3, h4{
+    padding: 0;
+    margin: 0;
+    width: 0;
+    min-width: 100%;
+    text-align: center;
+}
+
+/*Mobile Phone display*/
+@media screen and (min-width:480px) and (max-width:800px){
+    .container{
+        height: 100%;
+    }
+}

@@ -1,0 +1,15 @@
+.layout{
+    background: linear-gradient(to bottom, rgb(12, 0, 26), rgb(0, 0, 0));
+    color: white;
+    font-family: 'Questrial', sans-serif;
+    height: 100%;
+}
+
+/* .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-flow: column;
+    flex-direction: column;
+} */

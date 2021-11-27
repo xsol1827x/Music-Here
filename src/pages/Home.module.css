@@ -1,0 +1,146 @@
+.banner{
+    margin-top: auto;
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+
+.banner img{
+    width: 100%;
+    height: auto;
+}
+
+.title{
+    font-weight: bold;
+    color: #feecbc;
+    border: #feecbc solid 4px;
+    border-radius: 25px;
+    width: fit-content;
+    display: inline-block;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    text-shadow: 4px 4px #029eb3;
+    box-shadow: 4px 4px #029eb3;
+    font-size: 100px;
+}
+
+/*artist about section*/
+.bandName{
+    margin: 0;
+    padding: 0;
+}
+
+.about img{
+    height: 300px;
+    width: 300px;
+}
+
+.about img:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.about{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.innerText {
+    display: flex;
+    margin: 0;
+    margin-left: 10px;
+    text-align: left;
+    width: 35%;
+}
+
+.innerText p{
+    margin: 0;
+    padding: 0;
+}
+
+.hitTitle{
+    margin-top: 50px;
+}
+
+.hits ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.hits li p{
+    padding: 0;
+    margin: 0;
+    font-weight: 500;
+}
+
+.hits li img:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.button{
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.button a{
+    text-decoration: none;
+}
+
+/*Mobile Phone display*/
+@media screen and (min-width:480px) and (max-width:800px){
+    .banner{
+        margin-top: auto;
+        width: 100%;
+        position: relative;
+        text-align: center;
+    }
+    
+    .banner img{
+        width: 100vw;
+        height: auto;
+    }
+
+    .title{
+        font-size: 50px;
+    }
+
+    .about{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 10px;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .innerText {
+        margin: 0;
+        text-align: center;
+        min-width: 100%;
+        width: 0;
+    }
+
+    .hits ul{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        justify-content: center;
+        align-items: center;
+    }
+}

@@ -1,0 +1,31 @@
+/* .mobileContainer{
+    width: 100vw;
+    margin: auto;
+    height: fit-content;
+    color: rebeccapurple;
+}
+
+.mobileContainer img{
+    display: block;
+    width: 100vw;
+}
+
+.topNav{
+    overflow: hidden;
+    position: relative;
+    background-color: floralwhite;
+    border-radius: 10px;
+} */
+
+.topNav img{
+    width: 100vw;
+}
+
+.icon{
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: white;
+    z-index: 1;
+}
